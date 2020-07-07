@@ -22,13 +22,15 @@ body {
     background-position-y: 50px;
     background-position-x: 0px;
     overflow-x: hidden;
+    
 }
 
 #Button1 {
+    
     width: 120px;
     height: 40px;
     position: absolute;
-    top:135px;
+    top: 135px;
     right: 10px;
     font-family: 'MPLUS1p-Regular';
 }
@@ -88,8 +90,9 @@ body {
 /*דף הבית*/
 
 #container {
-width: 1280px;
-margin:0 auto;
+    
+    width: 1280px;
+    margin: 0 auto;
 }
 
 /*הגדרות - תפריט ראשי*/
@@ -1150,7 +1153,6 @@ span {
 
 
 /*____________________________________________________________________________________________________*/
-/*אודות*/
 
 /*כותרת ראשית*/
 .moment {
@@ -1164,20 +1166,20 @@ span {
 /*תמונה עליונה - איש*/
 #backman {
     position: absolute;
-    top:500px;
-    right:1190px;
+    top: 500px;
+    right: 1190px;
 }
 /*מלל - הגדרת מיקום*/
 #aboutContact {
     margin-right: 10px;
     margin-top: 120px;
 }
-/*פסקאות - הגדרת עיצוב*/
+    /*פסקאות - הגדרת עיצוב*/
     #aboutContact p {
         font-family: 'MPLUS1p-Regular';
         font-size: 20px;
     }
-/*כותרות - הגדרות עיצוב*/
+    /*כותרות - הגדרות עיצוב*/
     #aboutContact h3 {
         font-family: 'MPLUS1p-Regular';
         font-size: 24px;
@@ -1193,10 +1195,10 @@ span {
         font-family: 'MPLUS1p-Regular';
         font-size: 20px;
     }
-    /*תמונות של הצוות - הגדרת מיקום*/
-    #imagesOfUs {
-        padding-top: 45px;
-    }
+/*תמונות של הצוות - הגדרת מיקום*/
+#imagesOfUs {
+    padding-top: 45px;
+}
 /*תמונה -שרון*/
 .sharonimg {
     width: 150px;
@@ -1264,7 +1266,6 @@ span {
     width: 150px;
     position: relative;
     left: 300px;
-
 }
 /*תמונה תחתונה - איש*/
 .man2 {
@@ -1288,9 +1289,12 @@ span {
     right: 545px;
     top: 110px;
 }
-
 /*--------------------------------------עמוד צור קשר---------------------------------------*/
 /*תמונה - עיגול ורוד*/
+#contectUsp{
+    position:relative;
+}
+
 #Pinkback1 {
     width: 1200px;
     position: absolute;
