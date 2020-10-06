@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="">
 <head>
     <meta charset="utf-8" />
@@ -21,22 +21,18 @@
 </head>
 <body>
 
+  
 
-    <a onclick="big()" href="#">
 
-    </a>
-    <script>
-        var isbig = true
-        function big() {
-            var body = document.getElementsByTagName('body')[0];
-            isbig == true ? body.style.zoom = "200%" : body.style.zoom = "100%";
-            isbig == true ? isbig = false : isbig = true;
-        }
-    </script>
-    <input id="Button1" onclick="big()" type="button" value="הגדלה\הקטנה" />
-
+    
+    
+    
 
     <div id="container">
+
+
+
+
         <header role="banner">
             <nav id="nav1" role="navigation">
                 <ul>
@@ -88,7 +84,25 @@
                 </ul>
             </nav>
 
+            <img src="images/woman.png" id="woman" alt="" />
 
+            <!--כפתור הגדלה-->
+            <a onclick="big()" href="#">
+
+            </a>
+            <script>
+                var isbig = true
+                function big() {
+                    var body = document.getElementsByTagName('body')[0];
+                    isbig == true ? body.style.zoom = "200%" : body.style.zoom = "100%";
+                    isbig == true ? isbig = false : isbig = true;
+                }
+            </script>
+            <input id="Button1" onclick="big()" type="button" value="הגדלה\הקטנה" />
+
+            <!--כפתור דילוג-->
+
+            <div id="skip"><a id="godown" href="#heading1">דלג לתוכן </a></div>
 
             <p id="paraHead">
                 תקופת המבחנים התחילה? <br /> <br />
@@ -99,16 +113,18 @@
             <p id="paraHead1">קחו לכם רגע ותבחרו את הדרך שלכם <span>להירגע</span></p>
 
 
-            <img src="images/woman.png" id="woman" alt="" />
-            <img src="images/Leaves.png" class="l1" alt="" />
 
         </header>
         <br />
 
+        <img src="images/Leaves.png" class="l1" alt="" />
+
+
+
         <article id="HomePage" role="article">
             <section id="yoga" role="region">
+                <img src="images/yogaman.png" class="manYogaa" alt="" />
                 <img src="images/yoga.png" class="yoga" alt="" />
-                <img src="images/yogaman.png" class="manYoga" alt="" />
                 <img src="images/leaves2.png" class="l2" alt="" />
                 <h1 id="heading1">
                     קחו לכם רגע
@@ -141,6 +157,7 @@
                 <img src="images/tip.png" class="sun" alt="" />
                 <img src="images/paper.png" class="paper" alt="" />
                 <img src="images/tip2.png" class="pencil" alt="" />
+
                 <h1 id="heading5">
                     הטיפ השבועי שלנו
                 </h1>
@@ -154,8 +171,9 @@
             </section>
 
             <section id="music" role="region">
+
                 <img src="images/music2.png" class="music1" alt="" />
-                <a href="https://www.youtube.com/watch?v=1E5cviSKTjk&list=PLgn7B0hKkihgN-vAxwygf4F6c6LnzS2S-&index=2"><img src="images/track.png" class="track" /></a>
+                <a href="https://www.youtube.com/watch?v=1E5cviSKTjk&list=PLgn7B0hKkihgN-vAxwygf4F6c6LnzS2S-&index=2" target="_blank"><img src="images/track.png" class="track" /></a>
                 <img src="images/music3.png" class="music2" alt="" />
                 <h1 id="heading6">
                     לחצו על הפלייליסט והכנסו לאווירה
@@ -167,8 +185,9 @@
                 <img src="images/contact.png" class="contact" alt="" />
                 <img src="images/contact1.png" class="contact1" alt="" />
                 <img src="images/leaves4.png" class="l4" alt="" />
-                <img src="images/leaves2.png" class="l5" alt="" />
+
                 <a href="contactUS.html">צור קשר</a>
+                <img src="images/leaves2.png" class="l5" alt="" />
             </section>
 
             <footer class="footer1" role="contentinfo">
@@ -179,7 +198,12 @@
 
                 <p>כל הזכויות שמורות לצוות קחו לכם רגע ©</p>
             </footer>
+
         </article>
+        
+
     </div>
+
 </body>
+
 </html>
