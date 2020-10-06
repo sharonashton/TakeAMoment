@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -35,6 +35,8 @@
         }
     </script>
     <input id="Button1" onclick="big()" type="button" value="הגדלה\הקטנה" />
+
+    <a id="godown" href="#back1">דלג לתוכן </a>
 
     <div id="container">
         <header role="banner">
@@ -86,23 +88,18 @@
                     <li>יוגה למתחילים</li>
                 </ol>
             </nav>
+
+
         </header>
 
-        <div>
-            <img src="images/Leaves.png" class="l1" alt="" />
-            <img src="images/leaves2.png" class="l2" alt="" />
-            <img src="images/leaves3.png" class="l3" alt="" />
-            <img src="images/leaves4.png" class="l4" alt="" />
-            <img src="images/leaves2.png" class="l5" alt="" />
-            <img src="images/leaves4.png" class="l6" alt="" />
-            <img src="images/leaves2.png" class="l7" alt="" />
+        <!--כפתור דילוג-->
 
-        </div>
+        <div id="skip"><a id="godown" href="#allinfo">דלג לתוכן </a></div>
 
-        <article role="article">
+        <article role="article" id="articleY">
             <header role="banner">
-                <h1 class="headerP">יוגה למתחילים</h1>
-                <img src="images/video/start.png" class="topImg" alt="" />
+                <h1 id="headerPY">יוגה למתחילים</h1>
+                <img src="images/video/start.png" id="topImgP" alt="" />
                 <section id="topP" role="region">
                     <p> כאן תוכלו לצפות במספר סרטוני הדרכה למתחילים</p>
                 </section>
@@ -112,6 +109,8 @@
 
             <section id="allinfo" role="region">
 
+
+                <div id="lr1"><img src="images/leaves2.png" /></div>
 
 
                 <!--//תנוחת המשולש-->
@@ -138,6 +137,8 @@
                         <p>מומלץ להישאר בתנוחה 30 שניות לכל צד.</p>
                     </div>
                 </section>
+                <div id="lr2"><img src="images/leaves3.png" /></div>
+
 
                 <!--//תנוחת המחרשה-->
 
@@ -165,7 +166,7 @@
                         <p> הישארו בתנוחה במשך כ-1 דק .</p>
                     </div>
                 </section>
-
+                <div id="lr3"><img src="images/leaves2.png" /></div>
 
                 <!--//תנוחת העץ-->
 
@@ -192,13 +193,16 @@
                     </div>
                 </section>
 
+                <div id="lr4"><img src="images/leaves3.png" /></div>
 
+                <!--תנוחת לוטוס-->
 
                 <section id="back4" role="region">
                     <img src="images/video/blue.png" alt="" />
                     <div id="video4">
                         <iframe width="420" height="275" src="https://www.youtube.com/embed/5F8O6vove9Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-label="סרטון הסבר על תנוחת חצי לוטוס"></iframe>
                     </div>
+
 
                     <br />
                     <h2>תנוחת חצי לוטוס</h2>
@@ -218,6 +222,8 @@
                         <p> מומלץ להישאר בתנוחה 30 שניות לכל צד. </p>
                     </div>
                 </section>
+
+                <div id="lr5"><img src="images/leaves2.png" /></div>
 
                 <!--תנוחת חצי הגשר-->
 
@@ -248,6 +254,8 @@
                     </div>
                 </section>
 
+                <div id="lr6"><img src="images/leaves4.png" /></div>
+
                 <!--תנוחת החתול-->
 
                 <section id="back6" role="region">
@@ -274,6 +282,8 @@
                         <p> מומלץ להישאר בתנוחה במשך כ- 1 דק'. </p>
                     </div>
                 </section>
+
+                <div id="lr7"><img src="images/leaves2.png" /></div>
 
                 <!--תנוחת הסירה-->
 
@@ -303,6 +313,8 @@
                     </div>
                 </section>
 
+                <div id="lr8"><img src="images/leaves4.png" /></div>
+
                 <!--תנוחת הכיסא-->
 
                 <section id="back8" role="region">
@@ -330,6 +342,7 @@
                     </div>
                 </section>
 
+                <div id="lr9"><img src="images/leaves2.png" /></div>
                 <!--תנוחת הקוברה-->
 
                 <section id="back9" role="region">
@@ -360,6 +373,7 @@
                     </div>
                 </section>
 
+                <div id="lr10"><img src="images/leaves4.png" /></div>
                 <!--תנוחות הלוחם-->
 
                 <section id="back10" role="region">
@@ -368,7 +382,6 @@
                         <iframe width="420" height="275" src="https://www.youtube.com/embed/kwDqQTPkcIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-label="סרטון הסבר על תנוחת הלוחם"></iframe>
                     </div>
 
-                    <br />
                     <h2>תנוחת הלוחם</h2>
                     <p id="guider10" class="guiders">מדריכה: חן סננדג'י</p>
                     <div id="info10">
@@ -390,19 +403,20 @@
 
                 </section>
             </section>
+            <footer id="footer3" role="contentinfo">
+                <a href="contactUS.html">צור קשר</a>
+                <a href="siteMap.html">מפת האתר</a>
+                <a href="about.html">אודות</a>
+                <br />
+                <br />
+                <br />
+
+                <p>כל הזכויות שמורות לצוות קחו לכם רגע ©</p>
+            </footer>
         </article>
 
+        
 
-        <footer id="footer3" role="contentinfo">
-            <a href="contactUS.html">צור קשר</a>
-            <a href="siteMap.html">מפת האתר</a>
-            <a href="about.html">אודות</a>
-            <br />
-            <br />
-            <br />
-
-            <p>כל הזכויות שמורות לצוות קחו לכם רגע ©</p>
-        </footer>
 
 
 
